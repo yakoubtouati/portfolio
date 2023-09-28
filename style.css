@@ -345,6 +345,9 @@
     text-shadow:  #210064 10px 12px 12px;;
 
   }
+  main .titre{
+    display: none;
+  }
 
                  /* ************* PROJETS ************ */
   .projet_1,.projet_2{
@@ -625,6 +628,7 @@
 
   }
   @media screen and (max-width:768px){
+
     .menu{
       display:none;
       gap: 10%;
@@ -664,6 +668,77 @@
       border-radius: 20px;
       box-shadow: #210064 10px 12px 12px;
       
+    }
+    .apropos{
+
+      color: white;
+      font-size: 22px;
+      line-height: 40px;
+      text-align: center;
+      border: 1px solid white;
+      border-radius: 10px;
+      padding: 30px  5px;
+      margin: 50px 5px;
+      box-shadow: #210064 10px 12px 12px;
+     
+  
+    }
+    
+
+    .icons{
+      margin: 70px 5px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1Fr ;
+      justify-content: space-evenly;
+      border: 1px solid white;
+      border-radius: 10px;
+      box-shadow: #210064 10px 12px 12px;
+      padding: 30px;
+      gap: 10px;
+     
+    
+    }
+    .icons img {
+  
+      width: 100%;
+      height: auto;
+    
+      
+    }
+
+    form{
+      border: 1px solid white;
+      margin: 70px 10px;
+      border-radius: 10px;
+      box-shadow: #210064 10px 12px 12px;
+      width: 90%;
+    }
+
+    .nom_email{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    
+    }
+  
+    .nom{
+   
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      color: white;
+     gap: 10px;
+    
+    }
+   .email{
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      color: white;
+      gap: 10px;
     }
     
   }
@@ -835,6 +910,13 @@
       margin-bottom: 10px;
       
     }
+    main .titre{
+      display: block;
+      color: white;
+      text-align: center;
+      letter-spacing: 22px;
+    }
+
   }
 
   
